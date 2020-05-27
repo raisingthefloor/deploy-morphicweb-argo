@@ -48,7 +48,7 @@ spec:
           containerPort: 80
         env:
           - name: SERVICE_URL
-            value: "http://morphic-web.morphiclite.svc.cluster.local"
+            value: "http://morphic-lite.morphiclite.svc.cluster.local"
           - name: RECAPTCHA_KEY
             value: "6Le6hfsUAAAAAB9-WagMKxjnZmP7RKrSxlTYjJc-"
         resources:
