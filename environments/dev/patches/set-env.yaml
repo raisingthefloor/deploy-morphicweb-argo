@@ -9,6 +9,6 @@ spec:
       - name: morphic-web
         env:
           - name: SERVICE_URL
-            value: "https://dev-morphic.morphiclite-oregondesignservices.org"
+            value: "https://dev-morphic.morphiclite-oregondesignservices.org/"
           - name: RECAPTCHA_KEY
             value: "6Le6hfsUAAAAAB9-WagMKxjnZmP7RKrSxlTYjJc-"
