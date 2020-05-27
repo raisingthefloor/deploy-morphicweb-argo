@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: morphic-web
+  labels:
+    app: morphic-web
+  annotations:
+    reloader.stakater.com/auto: "true"
+spec:
+  revisionHistoryLimit: 2
+  replicas: 1
+  selector:
+    matchLabels:
+      app: morphic-web
+  template:
+    metadata:
+      labels:
+        app: morphic-web
+      annotations:
+        # @TODO add metrics
+        prometheus.io/scrape: "false"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "80"
+    spec:
+      containers:
+      - name: morphic-web
+        image: morphicworld/morphicweb:stable
+        livenessProbe:
+          httpGet:
+            path: /alive
+            port: 80
+          initialDelaySeconds: 3
+          periodSeconds: 3
+          timeoutSeconds: 2
+          failureThreshold: 4
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 2
+          failureThreshold: 4
+          successThreshold: 2
+        ports:
+        - name: http
+          containerPort: 80
+        env:
+          - name: SERVICE_URL
+            value: "http://morphic-web.morphiclite.svc.cluster.local"
+          - name: RECAPTCHA_KEY
+            value: "6Le6hfsUAAAAAB9-WagMKxjnZmP7RKrSxlTYjJc-"
+        resources:
+          requests:
+            cpu: "0.25"
+            memory: "150Mi"
+          limits:
+            cpu: "1"
+            memory: "150Mi"
