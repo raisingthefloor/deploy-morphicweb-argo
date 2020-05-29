@@ -30,7 +30,7 @@ spec:
             path: /alive
             port: 80
           initialDelaySeconds: 3
-          periodSeconds: 3
+          periodSeconds: 30
           timeoutSeconds: 2
           failureThreshold: 4
           successThreshold: 1
@@ -39,7 +39,7 @@ spec:
             path: /ready
             port: 80
           initialDelaySeconds: 5
-          periodSeconds: 5
+          periodSeconds: 30
           timeoutSeconds: 2
           failureThreshold: 4
           successThreshold: 2
