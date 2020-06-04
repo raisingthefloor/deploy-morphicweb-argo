@@ -13,6 +13,6 @@ spec:
           - name: RECAPTCHA_KEY
             value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
-            value: "https://dw2oujmdhok1n.cloudfront.net/win/x64/internal/MorphicSetup-v1.0.20156.3.msi"
+            value: "https://dw2oujmdhok1n.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20156.5.msi"
           - name: MORPHIC_WINDOWS_APPCAST_URL
-            value: "https://dw2oujmdhok1n.cloudfront.net/win/x64/internal/MorphicSetup-v1.0.20156.3.appcast.xml"
+            value: "https://dw2oujmdhok1n.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20156.5.appcast.xml"
