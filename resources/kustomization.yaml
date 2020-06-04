@@ -7,4 +7,4 @@ resources:
 images:
 - name: morphicworld/morphicweb
   newName: morphicworld/morphicweb
-  newTag: stable-20200531.1
+  newTag: stable-20200604.2
