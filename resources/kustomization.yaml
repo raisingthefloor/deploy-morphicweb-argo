@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - web
-  - community
+- web
+- community
 images:
 - name: morphicworld/morphiccommunity
   newName: morphicworld/morphiccommunity
-  newTag: stable-20200618.7
+  newTag: stable-20200618.8
 - name: morphicworld/morphicweb
   newName: morphicworld/morphicweb
   newTag: stable-20200618.1
