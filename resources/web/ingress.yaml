@@ -11,7 +11,7 @@ spec:
   tls:
   - hosts:
     - dev-ui.morphiclite-oregondesignservices.org
-    secretName: morphic-lite-tls
+    secretName: morphic-web-tls
   rules:
   - host: dev-ui.morphiclite-oregondesignservices.org
     http:
