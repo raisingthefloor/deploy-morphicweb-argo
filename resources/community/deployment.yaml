@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: morphic-community
+  labels:
+    app: morphic-community
+  annotations:
+    reloader.stakater.com/auto: "true"
+spec:
+  revisionHistoryLimit: 1
+  replicas: 1
+  selector:
+    matchLabels:
+      app: morphic-community
+  template:
+    metadata:
+      labels:
+        app: morphic-community
+      annotations:
+        # @TODO add metrics
+        prometheus.io/scrape: "false"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "80"
+    spec:
+      containers:
+      - name: morphic-community
+        image: morphicworld/morphiccommunity:stable
+        livenessProbe:
+          httpGet:
+            path: /alive
+            port: 9180
+          initialDelaySeconds: 3
+          periodSeconds: 30
+          timeoutSeconds: 2
+          failureThreshold: 4
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 9180
+          initialDelaySeconds: 5
+          periodSeconds: 30
+          timeoutSeconds: 2
+          failureThreshold: 4
+          successThreshold: 2
+        ports:
+        - name: http
+          containerPort: 80
+        env:
+          - name: SERVICE_URL
+            value: "SET-ME"
+          - name: RECAPTCHA_KEY
+            value: "SET-ME"
+        resources:
+          requests:
+            cpu: "0.25"
+            memory: "150Mi"
+          limits:
+            cpu: "1"
+            memory: "150Mi"
