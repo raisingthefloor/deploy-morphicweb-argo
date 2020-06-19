@@ -14,10 +14,10 @@ patchesJSON6902:
     patch: |-
       - op: add
         path: /spec/rules/0/host
-        value: community.morphiclite.raisingthefloor.org
+        value: community.morphic-staging.com
       - op: replace
         path: /spec/tls/0/hosts
-        value: ["community.morphiclite.raisingthefloor.org"]
+        value: ["community.morphic-staging.com"]
   - target:
       group: networking.k8s.io
       version: v1beta1
@@ -26,7 +26,7 @@ patchesJSON6902:
     patch: |-
       - op: add
         path: /spec/rules/0/host
-        value: app.morphiclite.raisingthefloor.org
+        value: app.morphic-staging.com
       - op: replace
         path: /spec/tls/0/hosts
-        value: ["app.morphiclite.raisingthefloor.org"]
+        value: ["app.morphic-staging.com"]

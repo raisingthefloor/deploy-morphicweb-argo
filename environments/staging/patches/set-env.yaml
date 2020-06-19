@@ -9,7 +9,7 @@ spec:
       - name: morphic-web
         env:
           - name: SERVICE_URL
-            value: "https://api.morphiclite.raisingthefloor.org/"
+            value: "https://api.morphic-staging.com/"
           - name: RECAPTCHA_KEY
             value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
