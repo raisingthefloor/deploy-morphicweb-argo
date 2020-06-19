@@ -1,0 +1,32 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../resources/
+patchesStrategicMerge:
+- patches/set-env.yaml
+
+patchesJSON6902:
+  - target:
+      group: networking.k8s.io
+      version: v1beta1
+      kind: Ingress
+      name: morphic-community
+    patch: |-
+      - op: add
+        path: /spec/rules/0/host
+        value: community.morphiclite.raisingthefloor.org
+      - op: replace
+        path: /spec/tls/0/hosts
+        value: ["community.morphiclite.raisingthefloor.org"]
+  - target:
+      group: networking.k8s.io
+      version: v1beta1
+      kind: Ingress
+      name: morphic-web
+    patch: |-
+      - op: add
+        path: /spec/rules/0/host
+        value: app.morphiclite.raisingthefloor.org
+      - op: replace
+        path: /spec/tls/0/hosts
+        value: ["app.morphiclite.raisingthefloor.org"]
