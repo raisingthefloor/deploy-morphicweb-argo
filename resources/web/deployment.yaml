@@ -19,7 +19,7 @@ spec:
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/path: "/metrics"
-        prometheus.io/port: "9145"
+        prometheus.io/port: "9180"
     spec:
       containers:
       - name: morphic-web
