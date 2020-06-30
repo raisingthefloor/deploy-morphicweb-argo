@@ -16,3 +16,5 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.msi"
           - name: MORPHIC_WINDOWS_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.appcast.xml"
+          - name: MORPHIC_MAC_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20180.9.dmg"
