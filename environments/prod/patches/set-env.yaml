@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: morphic-web
+spec:
+  template:
+    spec:
+      containers:
+      - name: morphic-web
+        env:
+          - name: SERVICE_URL
+            value: "https://api.morphic.org/"
+          - name: RECAPTCHA_KEY
+            value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
+          - name: MORPHIC_WINDOWS_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.msi"
+          - name: MORPHIC_WINDOWS_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.appcast.xml"
+          - name: MORPHIC_MAC_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20180.9.dmg"
