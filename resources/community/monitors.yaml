@@ -1,0 +1,14 @@
+apiVersion: monitoring.raisingthefloor.org/v1alpha1
+kind: HttpMonitor
+metadata:
+  name: check-community-index-external
+spec:
+  period: 1m
+  requests:
+    - name: check external access
+      target_service: morphicweb
+      method: GET
+      url: "{COMMUNITY_URL}/#/"
+      expected_response_codes: [200]
+
+
