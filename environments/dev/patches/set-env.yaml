@@ -18,3 +18,5 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20232.1.appcast.xml"
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20218.3.dmg"
+          - name: MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/internal/MorphicCommunitySetup-v1.0.20240.2.msi"  # scaffold:download-url:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
