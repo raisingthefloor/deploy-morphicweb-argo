@@ -22,3 +22,5 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20240.5.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20240.5.appcast.xml"
+          - name: MORPHIC_COMMUNITY_REGISTRATION_URL
+            value: "https://dev-communitymanager.morphiclite-oregondesignservices.org/#/register"
