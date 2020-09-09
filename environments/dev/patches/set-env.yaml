@@ -13,13 +13,13 @@ spec:
           - name: RECAPTCHA_KEY
             value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/internal/MorphicSetup-v1.0.20253.5.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20253.7.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_APPCAST_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/internal/MorphicSetup-v1.0.20253.5.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20253.7.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20218.3.dmg"  # scaffold:update-env-var:MORPHIC_MAC_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/internal/MorphicCommunitySetup-v1.0.20253.5.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20253.7.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20240.5.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
           - name: MORPHIC_COMMUNITY_REGISTRATION_URL
