@@ -17,6 +17,6 @@ spec:
           - name: MORPHIC_WINDOWS_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.20260.1.appcast.xml"
           - name: MORPHIC_MAC_DOWNLOAD_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20191.3.dmg"
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v0.20260.8.dmg"
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
