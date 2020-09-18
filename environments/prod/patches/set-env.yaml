@@ -20,3 +20,5 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v0.20260.8.dmg"
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
+          - name: MORPHIC_COMMUNITY_REGISTRATION_URL
+            value: "https://community.morhpic.org/#/register"
