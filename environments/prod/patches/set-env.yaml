@@ -21,4 +21,4 @@ spec:
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
           - name: MORPHIC_COMMUNITY_REGISTRATION_URL
-            value: "https://community.morhpic.org/#/register"
+            value: "https://community.morphic.org/#/register"
