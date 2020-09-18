@@ -11,10 +11,12 @@ spec:
           - name: SERVICE_URL
             value: "https://api.morphic.org/"
           - name: RECAPTCHA_KEY
-            value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
+            value: "6LcuEM0ZAAAAABafZkUPUBAAcj5BNw2rd3fuNMC2"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.msi"
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.20260.1.msi"
           - name: MORPHIC_WINDOWS_APPCAST_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/staging/MorphicSetup-v1.0.20171.8.appcast.xml"
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.20260.1.appcast.xml"
           - name: MORPHIC_MAC_DOWNLOAD_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20191.3.dmg"
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v0.20260.8.dmg"
+          - name: ASPNETCORE_ENVIRONMENT
+            value: Production
