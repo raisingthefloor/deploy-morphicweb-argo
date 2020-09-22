@@ -4,3 +4,17 @@ resources:
 - ../../resources/
 patchesStrategicMerge:
 - patches/set-env.yaml
+
+patchesJSON6902:
+  - target:
+      group: networking.k8s.io
+      version: v1beta1
+      kind: Ingress
+      name: morphic-web
+    patch: |-
+      - op: add
+        path: /spec/rules/0/host
+        value: app.msd-test.com
+      - op: replace
+        path: /spec/tls/0/hosts
+        value: ["app.msd-test.com"]
