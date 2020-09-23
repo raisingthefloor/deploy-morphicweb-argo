@@ -5,7 +5,7 @@ resources:
 images:
 - name: morphicworld/morphiccommunity
   newName: morphicworld/morphiccommunity
-  newTag: stable-20200923.13
+  newTag: stable-20200923.16
 - name: morphicworld/morphicweb
   newName: morphicworld/morphicweb
   newTag: stable-20200909.2
