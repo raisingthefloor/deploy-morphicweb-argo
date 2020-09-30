@@ -8,4 +8,4 @@ resources:
 images:
 - name: morphicworld/morphiccommunity
   newName: morphicworld/morphiccommunity
-  newTag: stable-20200929.27
+  newTag: stable-20200930.2
