@@ -9,7 +9,7 @@ spec:
       - name: morphic-web
         env:
           - name: SERVICE_URL
-            value: "https://api.morphic-prod-test.org/"
+            value: "https://api.test.morphic.org/"
           - name: RECAPTCHA_KEY
             value: "6LcuEM0ZAAAAABafZkUPUBAAcj5BNw2rd3fuNMC2"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
@@ -27,4 +27,4 @@ spec:
           - name: MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
             value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicCommunitySetup-v1.0.20260.1.appcast.xml
           - name: MORPHIC_COMMUNITY_REGISTRATION_URL
-            value: "https://community.morphic-prod-test.org/#/register"
+            value: "https://community.test.morphic.org/#/register"

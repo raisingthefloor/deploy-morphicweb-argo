@@ -14,7 +14,7 @@ patchesJSON6902:
     patch: |-
       - op: add
         path: /spec/rules/0/host
-        value: app.morphic-prod-test.org
+        value: app.test.morphic.org
       - op: replace
         path: /spec/tls/0/hosts
-        value: ["app.morphic-prod-test.org"]
+        value: ["app.test.morphic.org"]
