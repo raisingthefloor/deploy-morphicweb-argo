@@ -13,16 +13,16 @@ spec:
           - name: RECAPTCHA_KEY
             value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20259.1.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20274.4.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_APPCAST_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20259.1.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20274.4.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v0.20218.3.dmg"  # scaffold:update-env-var:MORPHIC_MAC_DOWNLOAD_URL
           - name: MORPHIC_MAC_COMMUNITY_DOWNLOAD_URL
             value: https://d23vryjv7k8eyb.cloudfront.net/osx/stable/MorphicCommunity-v0.20263.1.dmg
           - name: MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20259.1.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20274.4.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20259.1.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
+            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicCommunitySetup-v1.0.20274.4.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
           - name: MORPHIC_COMMUNITY_REGISTRATION_URL
             value: "https://community.morphic.dev/#/register"
