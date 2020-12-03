@@ -10,18 +10,6 @@ patchesJSON6902:
       group: networking.k8s.io
       version: v1beta1
       kind: Ingress
-      name: morphic-community
-    patch: |-
-      - op: add
-        path: /spec/rules/0/host
-        value: community.morphic-staging.com
-      - op: replace
-        path: /spec/tls/0/hosts
-        value: ["community.morphic-staging.com"]
-  - target:
-      group: networking.k8s.io
-      version: v1beta1
-      kind: Ingress
       name: morphic-web
     patch: |-
       - op: add
