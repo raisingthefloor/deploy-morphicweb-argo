@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - dev-ui.morphiclite-oregondesignservices.org
+    - dev-ui.morphic.dev
     secretName: morphic-web-tls
   rules:
-  - host: dev-ui.morphiclite-oregondesignservices.org
+  - host: dev-ui.morphic.dev
     http:
       paths:
       - backend:
