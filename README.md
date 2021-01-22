@@ -1,3 +1,3 @@
 # deploy-morphicweb
 
-Deploys the static web UI for moprhic
+Deploys the static web UI for Morphic
