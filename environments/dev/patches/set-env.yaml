@@ -13,9 +13,9 @@ spec:
           - name: RECAPTCHA_KEY
             value: "6Lc1hfsUAAAAAGFReCJUUva4LHF30XG5pIoJr2Nl"
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20286.1.msi  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_APPCAST_URL
-            value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.0.20286.1.appcast.xml  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21047.8.pkg"  # scaffold:update-env-var:MORPHIC_MAC_DOWNLOAD_URL
           - name: MORPHIC_MAC_APPCAST_URL
