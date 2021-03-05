@@ -8,4 +8,4 @@ images:
   newTag: stable-20200923.19
 - name: morphicworld/morphicweb
   newName: morphicworld/morphicweb
-  newTag: stable-20210305.2
+  newTag: stable-20210305.3
