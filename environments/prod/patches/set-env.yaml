@@ -12,18 +12,33 @@ spec:
             value: "https://api.morphic.org/"
           - name: RECAPTCHA_KEY
             value: "6LcuEM0ZAAAAABafZkUPUBAAcj5BNw2rd3fuNMC2"
+
           - name: MORPHIC_WINDOWS_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
+
+          - name: MORPHIC_WINDOWS_BETA_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_DOWNLOAD_URL
+          - name: MORPHIC_WINDOWS_BETA_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.0.21042.2.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_APPCAST_URL
+         
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v1.21042.1.pkg"  # scaffold:update-env-var:MORPHIC_MAC_DOWNLOAD_URL
           - name: MORPHIC_MAC_APPCAST_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v1.21042.1.appcast.xml"  # scaffold:update-env-var:MORPHIC_MAC_APPCAST_URL
+
+          - name: MORPHIC_MAC_BETA_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v1.21042.1.pkg"  # scaffold:update-env-var:MORPHIC_MAC_BETA_DOWNLOAD_URL
+          - name: MORPHIC_MAC_BETA_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v1.21042.1.appcast.xml"  # scaffold:update-env-var:MORPHIC_MAC_BETA_APPCAST_URL
+
           - name: MORPHIC_MAC_COMMUNITY_DOWNLOAD_URL
             value: https://d23vryjv7k8eyb.cloudfront.net/osx/stable/MorphicCommunity-v0.20263.1.dmg
+
           - name: ASPNETCORE_ENVIRONMENT
             value: Production
+
           - name: MORPHIC_WINDOWS_COMMUNITY_DOWNLOAD_URL
             value: https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicCommunitySetup-v1.0.20260.1.msi
           - name: MORPHIC_WINDOWS_COMMUNITY_APPCAST_URL
