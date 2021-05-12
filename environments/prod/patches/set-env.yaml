@@ -19,9 +19,9 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/stable/MorphicSetup-v1.1.21069.5.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_APPCAST_URL
 
           - name: MORPHIC_WINDOWS_BETA_DOWNLOAD_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.2.21109.2.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.2.21131.5.msi"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_DOWNLOAD_URL
           - name: MORPHIC_WINDOWS_BETA_APPCAST_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.2.21109.2.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/win/x64/edge/MorphicSetup-v1.2.21131.5.appcast.xml"  # scaffold:update-env-var:MORPHIC_WINDOWS_BETA_APPCAST_URL
          
           - name: MORPHIC_MAC_DOWNLOAD_URL
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/stable/Morphic-v1.21085.7.pkg"  # scaffold:update-env-var:MORPHIC_MAC_DOWNLOAD_URL
