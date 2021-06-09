@@ -29,9 +29,9 @@ spec:
             value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21047.8.appcast.xml"  # scaffold:update-env-var:MORPHIC_MAC_APPCAST_URL
 
           - name: MORPHIC_MAC_BETA_DOWNLOAD_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21109.1.pkg"  # scaffold:update-env-var:MORPHIC_MAC_BETA_DOWNLOAD_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21160.1.pkg"  # scaffold:update-env-var:MORPHIC_MAC_BETA_DOWNLOAD_URL
           - name: MORPHIC_MAC_BETA_APPCAST_URL
-            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21109.1.appcast.xml"  # scaffold:update-env-var:MORPHIC_MAC_BETA_APPCAST_URL
+            value: "https://d23vryjv7k8eyb.cloudfront.net/osx/edge/Morphic-v1.21160.1.appcast.xml"  # scaffold:update-env-var:MORPHIC_MAC_BETA_APPCAST_URL
 
           - name: MORPHIC_MAC_COMMUNITY_DOWNLOAD_URL
             value: https://d23vryjv7k8eyb.cloudfront.net/osx/stable/MorphicCommunity-v0.20263.1.dmg
